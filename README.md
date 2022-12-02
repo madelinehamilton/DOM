@@ -4,8 +4,11 @@ This is the code base for the Death of Melody project. Python 3 and R are utiliz
 libraries are installed on your machine:
 
 MIDI handling - pretty_midi
+
 Data handling - pandas, numpy, collections, json
+
 Statistics - scipy, statsmodels, sklearn
+
 Visualizations - matplotlib.pyplot, matplotlib.gridspec, seaborn
 
 as well as the "ecp" and "ggplot2" R libraries.
