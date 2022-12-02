@@ -1,0 +1,30 @@
+Instructions for computing the two IDyOM features, MIC and RIC
+
+
+
+STARTING IDYOM
+
+- Open emacs
+- Type option+x slime
+- Type (start-idyom)
+- Load a dataset, if needed. It has to be under "/Users/madelinehamilton/" for it to
+  work. Example command: (idyom-db:import-data :mid "/Users/madelinehamilton/bimmuda_new_processed/" "BiMMuDa Sep 2022 version" 22)
+
+
+
+COMPUTING MIC
+
+Example command:
+
+(idyom:idyom 22 '(cpitch) '((cpint cpintfref)) :models :stm :detail 2 :output-path "/Users/madelinehamilton/")
+
+Replace "22" with the index to which you loaded the dataset. The results will be under
+"/Users/madelinehamilton/"
+
+
+
+COMPUTING RIC
+
+Example command:
+
+(idyom:idyom 22 '(onset) '(ioi) :detail 2 :output-path "/Users/madelinehamilton/")

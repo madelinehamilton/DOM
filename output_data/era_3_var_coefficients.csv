@@ -1,0 +1,15 @@
+Dependent,Predictor,Lag,Coefficient
+Tonality,nPVI,1,0.5926
+Tonality,RIC,1,-0.6967
+Pitch STD,nPVI,1,1.044
+Pitch STD,RIC,1,-1.29
+Onset Density,const,0,0.6881
+Onset Density,Tonality,1,-0.4564
+Onset Density,Onset Density,1,0.4602
+Onset Density,nPVI,1,-1.582
+Onset Density,RIC,1,1.777
+nPVI,nPVI,1,2.067
+nPVI,RIC,1,-1.948
+RIC,Tonality,1,-0.2737
+RIC,nPVI,1,1.697
+RIC,RIC,1,-1.653

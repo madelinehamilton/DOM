@@ -1,0 +1,15 @@
+Era,Dependent,Independent,Estimate,p-value,R^2
+1,Tonality,Onset Density,-1.557,0.0342,0.448
+1,Pitch STD,MIC,0.825,0.0454,0.412
+1,Onset Density,MIC,-0.339,0.0486,0.403
+2,Pitch STD,Onset Density,-0.324,0.0032,0.288
+2,Onset Density,RIC,-0.155,0.0061,0.255
+3,Tonality,Pitch STD,1.227,0.011,0.38
+3,Tonality,Onset Density,-0.394,0.0394,0.269
+3,Pitch STD,Tonality,0.163,0.0236,0.316
+3,Onset Density,nPVI,-0.385,0.0023,0.496
+3,Onset Density,RIC,-0.584,0.0007,0.571
+3,nPVI,RIC,0.466,0.0117,0.355
+3,RIC,nPVI,0.378,0.0017,0.448
+3,Tonality,Pitch STD,0.978,0.0405,0.478
+3,Tonality,Onset Density,-0.256,0.1428,0.478
